@@ -1,7 +1,0 @@
-D:\assignments\assignment4\assignment4\bin\Debug\assignment4.exe.config
-D:\assignments\assignment4\assignment4\bin\Debug\assignment4.exe
-D:\assignments\assignment4\assignment4\bin\Debug\assignment4.pdb
-D:\assignments\assignment4\assignment4\obj\Debug\assignment4.csproj.AssemblyReference.cache
-D:\assignments\assignment4\assignment4\obj\Debug\assignment4.csproj.CoreCompileInputs.cache
-D:\assignments\assignment4\assignment4\obj\Debug\assignment4.exe
-D:\assignments\assignment4\assignment4\obj\Debug\assignment4.pdb
