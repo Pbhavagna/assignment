@@ -1,0 +1,10 @@
+D:\assignments\Assignment_Csharp\Assignment_6\Concession_main\Concession_main\bin\Debug\Concession_main.exe.config
+D:\assignments\Assignment_Csharp\Assignment_6\Concession_main\Concession_main\bin\Debug\Concession_main.exe
+D:\assignments\Assignment_Csharp\Assignment_6\Concession_main\Concession_main\bin\Debug\Concession_main.pdb
+D:\assignments\Assignment_Csharp\Assignment_6\Concession_main\Concession_main\bin\Debug\Concession.dll
+D:\assignments\Assignment_Csharp\Assignment_6\Concession_main\Concession_main\bin\Debug\Concession.pdb
+D:\assignments\Assignment_Csharp\Assignment_6\Concession_main\Concession_main\obj\Debug\Concession_main.csproj.AssemblyReference.cache
+D:\assignments\Assignment_Csharp\Assignment_6\Concession_main\Concession_main\obj\Debug\Concession_main.csproj.CoreCompileInputs.cache
+D:\assignments\Assignment_Csharp\Assignment_6\Concession_main\Concession_main\obj\Debug\Concession_main.csproj.CopyComplete
+D:\assignments\Assignment_Csharp\Assignment_6\Concession_main\Concession_main\obj\Debug\Concession_main.exe
+D:\assignments\Assignment_Csharp\Assignment_6\Concession_main\Concession_main\obj\Debug\Concession_main.pdb
