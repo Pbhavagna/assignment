@@ -1,0 +1,7 @@
+D:\assignments\Code_BaseTest_Csharp\Code_BaseTest3\codebasetest3\codebasetest3\bin\Debug\codebasetest3.exe.config
+D:\assignments\Code_BaseTest_Csharp\Code_BaseTest3\codebasetest3\codebasetest3\bin\Debug\codebasetest3.exe
+D:\assignments\Code_BaseTest_Csharp\Code_BaseTest3\codebasetest3\codebasetest3\bin\Debug\codebasetest3.pdb
+D:\assignments\Code_BaseTest_Csharp\Code_BaseTest3\codebasetest3\codebasetest3\obj\Debug\codebasetest3.csproj.AssemblyReference.cache
+D:\assignments\Code_BaseTest_Csharp\Code_BaseTest3\codebasetest3\codebasetest3\obj\Debug\codebasetest3.csproj.CoreCompileInputs.cache
+D:\assignments\Code_BaseTest_Csharp\Code_BaseTest3\codebasetest3\codebasetest3\obj\Debug\codebasetest3.exe
+D:\assignments\Code_BaseTest_Csharp\Code_BaseTest3\codebasetest3\codebasetest3\obj\Debug\codebasetest3.pdb
