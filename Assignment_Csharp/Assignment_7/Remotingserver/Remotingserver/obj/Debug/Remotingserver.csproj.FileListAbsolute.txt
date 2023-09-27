@@ -1,0 +1,7 @@
+D:\assignments\Assignment_Csharp\Assignment_7\Remotingserver\Remotingserver\bin\Debug\Remotingserver.exe.config
+D:\assignments\Assignment_Csharp\Assignment_7\Remotingserver\Remotingserver\bin\Debug\Remotingserver.exe
+D:\assignments\Assignment_Csharp\Assignment_7\Remotingserver\Remotingserver\bin\Debug\Remotingserver.pdb
+D:\assignments\Assignment_Csharp\Assignment_7\Remotingserver\Remotingserver\obj\Debug\Remotingserver.csproj.AssemblyReference.cache
+D:\assignments\Assignment_Csharp\Assignment_7\Remotingserver\Remotingserver\obj\Debug\Remotingserver.csproj.CoreCompileInputs.cache
+D:\assignments\Assignment_Csharp\Assignment_7\Remotingserver\Remotingserver\obj\Debug\Remotingserver.exe
+D:\assignments\Assignment_Csharp\Assignment_7\Remotingserver\Remotingserver\obj\Debug\Remotingserver.pdb
