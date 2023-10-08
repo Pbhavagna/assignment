@@ -1,7 +1,0 @@
-D:\assignments\CaseStudy_Csharp\CaseStudy_1\CaseStudy_1\bin\Debug\CaseStudy_1.exe.config
-D:\assignments\CaseStudy_Csharp\CaseStudy_1\CaseStudy_1\bin\Debug\CaseStudy_1.exe
-D:\assignments\CaseStudy_Csharp\CaseStudy_1\CaseStudy_1\bin\Debug\CaseStudy_1.pdb
-D:\assignments\CaseStudy_Csharp\CaseStudy_1\CaseStudy_1\obj\Debug\CaseStudy_1.csproj.AssemblyReference.cache
-D:\assignments\CaseStudy_Csharp\CaseStudy_1\CaseStudy_1\obj\Debug\CaseStudy_1.csproj.CoreCompileInputs.cache
-D:\assignments\CaseStudy_Csharp\CaseStudy_1\CaseStudy_1\obj\Debug\CaseStudy_1.exe
-D:\assignments\CaseStudy_Csharp\CaseStudy_1\CaseStudy_1\obj\Debug\CaseStudy_1.pdb
