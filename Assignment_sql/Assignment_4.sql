@@ -1,70 +1,62 @@
-create database Client_Rental
-use Client_Rental
-create table Client_Rental(
-ClientNo varchar(max),
-propertyno varchar(max),
-cname varchar(max),
-paddress varchar(max),
-rentstart date,
-rentfinish date,
-rent int,
-ownerno varchar(max),
-oname varchar(max)
-);
+declare @num int ,@factorial int
+set @factorial=1
+set @num=6
+while @num>=1
+begin 
+set @factorial=@factorial *@num
+set @num=@num-1
+end
+select @factorial as FACTORIAL
 
-drop table Client_Rental
+--2. Create a stored procedure to generate multiplication tables up to a given number.
+create proc MultiplicationTable    
+@num int
+as
+begin        
+    declare @i int, @mulresult int;     
+    set @i = 1;    
 
-insert into Client_Rental values
-('CR76','PG4','John Kay', '6 lawrence St,Glasgow', '1-Jul-00','31-Aug-01', 350, 'CO40', 'Tina Murphy'),
-('CR76','PG16','John Kay', '5 Novar Dr,Glasgow', '1-Sep-02','1-Sep-02',450, 'CO93', 'Tony Shaw'),
-('CR56','PG4','Aline Stewart', '6 lawrence St,Glasgow', '1-Sep-99','10-Jun-00', 350, 'CO40', 'Tina Murphy'),
-('CR56','PG36','Aline Stewart', '2 MAnor Rd,Glasgow', '10-Oct-00','1-Dec-01', 370, 'CO93', 'Tony Shaw'),
-('CR56','PG16','Aline Stewart', '5 Novar Dr,Glasgow', '1-Nov-02','1-Aug-03', 450, 'CO93', 'Tony Shaw')
+        while @i <= 10     
+        begin       
+           set @mulresult = @num * @i;         
+           print  cast(@num as varchar(30)) + ' * ' + cast(@i as varchar(10)) + ' = '+ cast(@mulresult as varchar(10));         
+           set @i = @i + 1;     
+        end
+end
 
-create table clientNo(
-clientno varchar(10) primary key,
-cname varchar(20)
-);
-insert into clientNo values
-('cr76','john kay'),
-('cr56','aline stewart')
-select * from clientNo
+execute MultiplicationTable 5;
 
- 
-create table ownerNo(
-ownerno varchar(10)primary key,
-oname varchar(20)
-);
-insert into ownerNo values
-('co40','tina murphy'),
-('co93','tony shaw')
-select * from ownerNo
+--3. Create a trigger to restrict data manipulation on EMP table during General holidays.
+--Display the error message like “Due to Independence day you cannot manipulate data” or "Due To Diwali", you cannot manupulate" 
 
+create table Holidays
+(holiday_date Date Primary Key, holiday_name varchar(30));
+insert into holidays values
+('2023-01-01','NewYear'),
+('2023-08-15','Independence Day'),
+('2023-10-27','Diwali'),
+('2023-12-25','Christmas'),
+('2023-10-15','Homieday');
 
-create table propertyNo(
-propertyno varchar(10)primary key,
-paddress varchar(30),
-rent bigint,
-ownerno varchar(10)
-);
-insert into propertyNo values
-('pg4','6 lawerence st.glasgow',350,'co40'),
-('pg16','5 novar dr glasgow ',450,'co93'),
-('pg36','2 manor rd.glasgow ',370,'co93')
-select * from propertyno
+Create trigger RestrictDataManiOH
+ON Emp
+FOR INSERT, UPDATE, DELETE 
+AS 
+begin    
+declare @Holiday_name VARCHAR(50), @holiday_date DATE
+set @holiday_date = CONVERT(DATE, GETDATE())
+select @Holiday_name = Holiday_name     
+from Holidays    
+where holiday_date = @holiday_date 
+If @holiday_name IS NOT NULL     
+begin       
+ROLLBACK TRANSACTION        
+RAISERROR('Due to %s, you cannot manipulate data', 16, 1, @holiday_name)     
+end
+end 
 
-create table rentalno(
-clientno varchar(10) foreign key references clientno(clientno),
-propertyno varchar(10) foreign key references propertyno(propertyno),
-rentstart date,
-rentfinish date
-);
-insert into rentalno values
-('cr76','pg4','2000-07-01','2001-08-31'),
-('cr76','pg16','2002-09-01','2003-09-01'),
-('cr56','pg4','1999-09-01','2000-06-10'),
-('cr56','pg36','2000-10-10','2001-12-01'),
-('cr56','pg16','2002-11-01','2003-08-01')
-select * from rentalno
+insert into Emp values(7672,'Bhavagna','analyst',6767,'2013-07-09',8000,1000,10);
 
- 
+delete from emp where empno=1
+update Emp
+set sal = sal*1.10;
