@@ -1,0 +1,2 @@
+D:\assignments\Code_BaseTest_SQL\codetestt6\codetestt6\obj\Debug\codetestt6.csproj.AssemblyReference.cache
+D:\assignments\Code_BaseTest_SQL\codetestt6\codetestt6\obj\Debug\codetestt6.csproj.CoreCompileInputs.cache

@@ -1,7 +1,0 @@
-D:\assignments\Code_BaseTest_SQL\codetest\codetest\bin\Debug\codetest.exe.config
-D:\assignments\Code_BaseTest_SQL\codetest\codetest\bin\Debug\codetest.exe
-D:\assignments\Code_BaseTest_SQL\codetest\codetest\bin\Debug\codetest.pdb
-D:\assignments\Code_BaseTest_SQL\codetest\codetest\obj\Debug\codetest.csproj.AssemblyReference.cache
-D:\assignments\Code_BaseTest_SQL\codetest\codetest\obj\Debug\codetest.csproj.CoreCompileInputs.cache
-D:\assignments\Code_BaseTest_SQL\codetest\codetest\obj\Debug\codetest.exe
-D:\assignments\Code_BaseTest_SQL\codetest\codetest\obj\Debug\codetest.pdb
